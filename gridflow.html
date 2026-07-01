@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 <style>
-    .idcard {
+    /* .idcard {
         background-color: blue;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -35,13 +35,13 @@
         font-size: 20px;
     }
 
-    .news {
+     news {
         border: 4px dashed black;
         text-align: center;
         font-weight: bold;
         font-size: 50px;
     }
-
+.
     #new {
         color: green;
         border: 2px dashed black;
@@ -57,22 +57,68 @@
         text-align: center;
         color: darkblue;
         font-size: 20px;
+    } */
+
+    .heading{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: pink;
     }
+
+    .main {
+        grid-column: 1/3;
+        padding: 10px;
+        text-align: center;
+        color: blueviolet;
+        border: 2px dashed black;
+    }
+
+    .company {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: darkslategrey;
+    }
+
+    .head {
+        grid-column: 3/1;
+        padding: 10px;
+        border: 5px dashed black;
+        text-align: center;
+        font-size: 30px;
+    } */
+
+    .con {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: darkslategrey;
+    }
+    .netflix{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: darkorange;
+    }  
 </style>
 
 <body>
-    <h2 style="color: orangered; text-align: center;">STUDENT ID CARD</h2>
+    <!-- <h2 style="color: orangered; text-align: center">STUDENT ID CARD</h2>
     <div class="idcard">
         <div class="name">student 1</div>
         <div class="name">student 2</div>
         <div class="name">student 3</div>
         <div class="name">student 4</div>
         <div class="name">student 5</div>
-        <div class="name">student 6</div><br>
-        <hr>
+        <div class="name">student 6</div>
+        <br />
+        <hr />
     </div>
 
-    <h2 style="color: rgb(216, 50, 183); text-align: center;">ELECTRONIC PRODUCTS</h2>
+    <h2 style="color: rgb(216, 50, 183); text-align: center">
+        ELECTRONIC PRODUCTS
+    </h2>
     <div class="product">
         <div class="el">LAPTOP</div>
         <div class="el">MOBILE</div>
@@ -82,19 +128,23 @@
         <div class="el">SPEAKER</div>
         <div class="el">MOUSE</div>
         <div class="el">KEYBOARD</div>
-        <div class="el">PRINTER</div><br>
-        <hr>
+        <div class="el">PRINTER</div>
+        <br />
+        <hr />
     </div>
 
-    <h2 style="color: rgb(16, 58, 198); text-align: center;">NEWS PORTAL</h2>
-    <div style="background-color: yellow;">
+    <h2 style="color: rgb(16, 58, 198); text-align: center">NEWS PORTAL</h2>
+    <div style="background-color: yellow">
         <div class="news">MAIN NEWS</div>
         <span id="new">NEWS 2</span>
         <span id="new">NEWS 3</span>
-    </div><br>
-    <hr>
+    </div>
+    <br />
+    <hr />
 
-    <h2 style="color: brown; text-align: center;">NETSQUARE SOFTWARES TEAM MEMEBERS</h2>
+    <h2 style="color: brown; text-align: center">
+        NETSQUARE SOFTWARES TEAM MEMEBERS
+    </h2>
     <div class="member">
         <div class="mem">SHAHDEEP SINGH</div>
         <div class="mem">JASHANDEEP SINGH</div>
@@ -104,35 +154,84 @@
         <div class="mem">ANMOLDEEP SINGH</div>
         <div class="mem">GAGANFDEEP SINGH</div>
         <div class="mem">SUKHVIR SINGH</div>
+    </div>
+    <br />
+    <hr />
+
+    <h2 style="color: darkgreen; text-align: center">WILDLIFE PHOTOGRAPHY</h2>
+    <div class="wildlife">
+        <span>
+            <img src="MainImage/elerat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/ratlion.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/korat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/gorilla.jpg" alt="0" height="auto" width="350px" />
+        </span>
+        <hr />
+
+        <span>
+            <img src="MainImage/kinrat.jpg" alt="0" height="auto" width="350px" />
+            <img src="MainImage/leorat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/panrat.jpg" alt="0" height="auto" width="350px" />
+            <img src="MainImage/rabrat.jpg" alt="0" height="auto" width="350px" />
+        </span>
+        <hr />
+
+        <span>
+            <img src="MainImage/eagrat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/polarrat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/girrat.png" alt="0" height="auto" width="350px" />
+            <img src="MainImage/zebrat.png" alt="0" height="auto" width="350px" />
+        </span>
+        <hr />
+    </div> -->
+
+    <div class="heading">
+        <div class="main">FEATURED IMAGE</div>
+        <div class="img">Img2</div>
+        <div class="img">Img3</div>
+        <div class="img">Img4</div>
+        <div class="img">Img5</div>
     </div><br>
     <hr>
 
-    <h2 style="color: darkgreen; text-align: center;">WILDLIFE PHOTOGRAPHY</h2>
-    <div class="wildlife">
-        <span>
-            <img src="MainImage/elerat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/ratlion.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/korat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/gorilla.jpg" alt="0" height="auto" width="350px">
-        </span>
-        <hr>
+    <div class="company">
+        <div class="head">HEADER</div>
+        <div class="con">sidebar</div>
+        <div class="con">content</div>
+        <div class="con">sidebar</div>
+        <div class="con">content</div>
+        <div class="head">FOOTER</div>
+    </div><br>
+    <hr>
 
-        <span>
-            <img src="MainImage/kinrat.jpg" alt="0" height="auto" width="350px">
-            <img src="MainImage/leorat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/panrat.jpg" alt="0" height="auto" width="350px">
-            <img src="MainImage/rabrat.jpg" alt="0" height="auto" width="350px">
-        </span>
-        <hr>
+    <div class="menu">
+        <div>PIZZZA</div>
+        <div>BURGER</div>
+        <div>PASTA</div>
+        <div>SANDWICH</div>
+        <div>MOMOS</div>
+        <div>NOODLES</div>
+        <div>FRIES</div>
+        <div>WRAP</div>
+    </div><br>
+    <hr>
+    <div class="netflix">
+        <div>movie1</div>
+        <div>movie2</div>
+        <div>movie3</div>
+        <div>movie4</div>
+        <div>movie5</div>
+    </div><br><br>
 
-        <span>
-            <img src="MainImage/eagrat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/polarrat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/girrat.png" alt="0" height="auto" width="350px">
-            <img src="MainImage/zebrat.png" alt="0" height="auto" width="350px">
-        </span>
-        <hr>
-    </div>
+    <div class="netflix">
+        <div>movie6</div>
+        <div>movie7</div>
+        <div>movie8</div>
+        <div>movie9</div>
+        <div>movie10</div>
+    </div><br><hr>
+
+
 </body>
 
 </html>
