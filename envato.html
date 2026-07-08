@@ -10,8 +10,8 @@
     .background {
         background-image: url(MainImage/imgmain.jpg);
         background-size: cover;
-        height: 100vh;
-        width: 100%;
+        height:700px;
+        width:auto;
         background-repeat: no-repeat;
     }
 
@@ -21,7 +21,7 @@
         align-items: center;
         padding: 10px;
     }
-     
+
     .the {
         display: flex;
         justify-content: center;
@@ -36,12 +36,21 @@
         background-color: blue;
     }
 
-    .navbar {
-        text-align: center;
-        opacity: 60%;
+    .list {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
         color: white;
-       word-spacing:10px;
-       margin-top: 10px;
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+        font-weight: light;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     #the {
@@ -54,54 +63,138 @@
     #ret {
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 0;
-        font-size:65px ;
+        font-size: 65px;
         font-weight: bold;
     }
-    .retdiv{
+
+    .retdiv {
         justify-content: space-around;
         color: white;
     }
-    .secondpage{
-        justify-content: space-evenly;
+
+    .sec2{
+        background-color: white;
+        height: 550px;
+        position: relative;
     }
-    .welcome{
-        text-align: left;
+
+    .welcome {
+        display: flex;
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        text-align: center;
     }
+
+    .img1 {
+        position: absolute;
+        top: 50px;
+        right: 300px;
+    }
+
+    .img2 {
+        position: absolute;
+        top: 250px;
+        right: 300px;
+    }
+
+    .tree {
+        display: flex;
+        justify-content: end;
+        transform: translateX(100px);
+
+    }
+
+    .welcome aside {
+        width: 500px;
+        font-size: medium;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5c5c68;
+        line-height: 1.8;
+    }
+     .img3{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:auto;
+        height: 700px;
+     }
 </style>
+<!-- <section>1</section> -->
+
 <body style="background-color: white;">
     <section class="background">
         <header>
             <div>
-            <div class="retdiv">
-                <h2 class="log"><a href="#Find/Contacts">Find/Contacts</a></h2>
-                <div class="the">
-                    <h2 id="the">The</h2>
-                    <h1 id="ret">Retation</h1>
+                <div class="retdiv">
+                    <section>
+                        <h2 class="log"><a href="#Find/Contacts">Find/Contacts</a></h2>
+                    </section>
+                    <div class="the">
+                        <h2 id="">The</h2>
+                        <h1 id="ret">Retation</h1>
+                    </div>
+                    <section>
+                        <h2 class="log"><a href="#Login/Register">Login/Register</a></h2>
+                    </section>
                 </div>
-                <h2 class="log"><a href="#Login/Register">Login/Register</a></h2>
+                <div class="navbar">
+                    <ul class="list">
+                        <li> <a class="link" href="#Home">HOME</a></li>
+                        <li> <a class="link" href="#About">ABOUT</a></li>
+                        <li> <a class="link" href="#Menu">MENU</a></li>
+                        <li> <a class="link" href="#Galleries">GALLERIES</a></li>
+                        <li> <a class="link" href="#News&Events">NEWS & EVENTS</a></li>
+                        <li> <a class="link" href="#Contacts">CONTACTS</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar">
-                <a href="#Home">HOME</a>
-                <a href="#About">ABOUT</a>
-                <a href="#Menu">MENU</a>
-                <a href="#Galleries">GALLERIES</a>
-                <a href="#News&Events">NEWS & EVENTS</a>
-                <a href="#Contacts">CONTACTS</a>
-            </div>
-        </div>
         </header>
     </section>
-    <section  class="secondpage">  
-        <div class="welcome">
-            <h1>Welcome to our Retation</h1>
-            <p>Cmspresso is tZhe process that slowly and gradually releases the purest of essence. As tea leaves unravel and coffee patiently drips, it is the best representation of the making of tea and coffee. We want the tea and coffee from Cmspresso to express their many levels of character through a thoughtful and caring hand.
 
-Cmspresso is a concept that we wish to pass for-ward. Cmspresso means a healthy and positive outlook for the adopters of this great attitude.</p>
-        </div>
-        <div class="image">
-            <img src="MainImage/firstpic.png" alt="0">
-            <img src="MainImage/secondpic.png" alt="0">
-        </div>
+    <!-- <section>2</section> -->
+    <section>
+        <div class="sec2">
+            <div class="tree">
+                <img src="MainImage/tree1 (1).jpg" </div>
+
+                <div class="welcome">
+                    <header>WELCOME TO OUR </header>
+                    <header>RETATION</header>
+                    <br>
+                    <div>
+                        <aside>
+                            Cmspresso is the process that slowly and gradually releases the purest of essence. As tea
+                            leaves
+                            unravel and coffee patiently drips, it is the best representation of the making of tea and
+                            coffee.
+                            We want the tea and coffee from Cmspresso to express their many levels of character through
+                            a
+                            thoughtful and caring hand.
+                            <br>
+                            <br>
+                            Cmspresso is a concept that we wish to pass for-ward. Cmspresso means a healthy and positive
+                            outlook
+                            for the adopters of this great attitude.
+                        </aside>
+                    </div>
+                </div>
+
+
+                <div class="image">
+                    <img class="img1" src="MainImage/firstpic.png" alt="0">
+                    <img class="img2" src="MainImage/secondpic.png" alt="0">
+                </div>
     </section>
+
+    <!-- <section>3</section> -->
+
+    <div>
+        <img  class="img3" src="MainImage/crossiant.jpg" alt="0">
+    </div>
 </body>
-</html>
+</html>".

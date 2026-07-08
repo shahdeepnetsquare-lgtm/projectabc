@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            min-height:100vh;
+            background:#f5f5f5;
+            font-family:"Yusei Magic", sans-serif;
+            text-align: center
+        }
+
+        .swiper{
+            width:800px;
+            height:400px;
+        }
+
+        .swiper-slide img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display:block;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev{
+            color:#fff;
+        }
+
+        .swiper-pagination-bullet-active{
+            background:#fff;
+        }
+
+        @media(max-width:900px){
+            .swiper{
+                width:95%;
+                height:300px;
+            }
+        }
+        .yuyu-regular {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    </style>
+</head>
+
+<body>
+ <h1 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuyu&display=swap" rel="stylesheet">JS IMAGE SWIPER <h1>
+<div class="swiper">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <img src="MainImage/girrat.png" alt="Giraffe">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="MainImage/korat.png" alt="Koala">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="MainImage/leorat.png" alt="Leopard">
+        </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper(".swiper", {
+
+    loop: true,
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    speed: 1000,
+
+    grabCursor: true,
+
+    slidesPerView: 1,
+
+    spaceBetween: 20,
+
+});
+</script>
+
+</body>
+</html>
