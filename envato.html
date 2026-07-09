@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>theretation</title>
 </head>
 <style>
     .background {
         background-image: url(MainImage/imgmain.jpg);
         background-size: cover;
-        height:700px;
-        width:auto;
+        height: 700px;
+        width: auto;
         background-repeat: no-repeat;
     }
 
@@ -28,6 +28,10 @@
         align-items: center;
         flex-direction: column;
         color: white
+    }
+
+    .log {
+        display: inline-block;
     }
 
     .seconddiv {
@@ -52,27 +56,15 @@
         font-weight: light;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-
-    #the {
-        font-style: italic;
-        font-weight: lighter;
-        margin-bottom: 8px;
-        font-size: 30px;
-    }
-
-    #ret {
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 0;
-        font-size: 65px;
-        font-weight: bold;
-    }
-
+    .link:hover{
+       color: blue;
+     }
     .retdiv {
         justify-content: space-around;
         color: white;
     }
 
-    .sec2{
+    .sec2 {
         background-color: white;
         height: 550px;
         position: relative;
@@ -106,6 +98,7 @@
         display: flex;
         justify-content: end;
         transform: translateX(100px);
+        width: 190vh;
 
     }
 
@@ -117,12 +110,25 @@
         color: #5c5c68;
         line-height: 1.8;
     }
-     .img3{
+
+    .img3 {
         background-size: cover;
         background-repeat: no-repeat;
-        width:auto;
-        height: 700px;
-     }
+        width: 1500px;
+        height: 100vh;
+    }
+
+    .cbean {
+        display: flex;
+        justify-content: end;
+    }
+    .imgtab{
+        display: inline;
+        position: absolute;
+        border: 10px solid hsl(32, 38%, 84%);
+        position: absolute;
+        right: 15px;
+    }
 </style>
 <!-- <section>1</section> -->
 
@@ -135,8 +141,7 @@
                         <h2 class="log"><a href="#Find/Contacts">Find/Contacts</a></h2>
                     </section>
                     <div class="the">
-                        <h2 id="">The</h2>
-                        <h1 id="ret">Retation</h1>
+                        <img src="MainImage/theretation.png" alt="0">
                     </div>
                     <section>
                         <h2 class="log"><a href="#Login/Register">Login/Register</a></h2>
@@ -194,7 +199,35 @@
     <!-- <section>3</section> -->
 
     <div>
-        <img  class="img3" src="MainImage/crossiant.jpg" alt="0">
+        <img class="img3" src="MainImage/crossiant.jpg" alt="0">
+    </div>
+
+    <!-- <section>4</section> -->
+
+    <div class="sec4">
+
+        <div class="cbean">
+            <img src="MainImage/cbean.png" alt="0">
+        </div>
+
+        <div class="imgtab">
+            <div>
+                 <a href=""><img src="MainImage/img1sec4.jpg" alt="0"></a>
+                 <a href=""><img src="MainImage/img2sec4.jpg" alt="0"></a>
+            </div>
+
+            <div>
+                 <a href=""><img src="MainImage/img3sec4.jpg" alt="0"></a>
+                 <a href=""><img src="MainImage/img4sec4.jpg" alt="0"></a>
+            </div>
+
+            <div>
+                 <a href=""><img src="MainImage/img6sec4.jpg" alt="0"></a>
+                 <a href=""><img src="MainImage/img2sec4.jpg" alt="0"></a>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>".
